@@ -33,9 +33,10 @@
     flex-wrap: wrap;
     list-style:none;
     letter-spacing:0vw;
+    line-height: 5vh;
   }
 
   #list li{
-    margin-left: 4vw;
+    margin-left: 2vw;
     list-style: inside !important;
   }
