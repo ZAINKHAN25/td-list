@@ -12,8 +12,7 @@
     height:100vh;
     justify-content:center;
     align-items:center;
-  /*   padding-top:5vw;
-    padding-bottom:5vw; */
+    padding-left: 1vw;
   }
   
   #btn{

@@ -18,6 +18,7 @@ btn.addEventListener('click', ()=>{
     const wordsArray = students[i].split(' ');
     separatedWords.push(...wordsArray);
   }
-
-  list.innerHTML = students.map(student => `<li>, ${student}</li>`).join('');
+  for(let j = 1; j <= students.length; j++) {
+  list.innerHTML = students.map(student => `<li style="list-style:circle;"> ${student}</li>`).join('');
+  }
 });
