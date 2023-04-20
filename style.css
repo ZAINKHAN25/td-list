@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    background-color: lightblue;
+    display:flex;
+    flex-direction:column;
+    scrollbar-width:100vw;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+  /*   padding-top:5vw;
+    padding-bottom:5vw; */
+  }
+  
+  #btn{
+    height:20vh;
+    width:20vw;
+    color:red;
+    font-size: 2vw;
+    background-color:green;
+    border:none;
+    box-shadow:.3vw 1vh 1vw 1vh black;
+    margin-bottom:10vh;
+  }
+  
+  #list{
+    display:flex;
+    font-size:2vw;
+    flex-wrap: wrap;
+    list-style:none;
+    letter-spacing:.1vw;
+  }
