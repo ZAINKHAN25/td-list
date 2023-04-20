@@ -11,6 +11,10 @@ if (localStorage.getItem('students')) {
 btn.addEventListener('click', ()=>{
   let addstudents = prompt("Write student name here");
   students.push(addstudents);
+  addstudents = addstudents.trim();
+  if(addstudents == ""){
+    return false
+  }
   localStorage.setItem("students", JSON.stringify(students));
 
   let separatedWords = [];
