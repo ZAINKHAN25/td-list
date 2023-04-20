@@ -15,6 +15,7 @@ btn.addEventListener('click', ()=>{
   if(addstudents == ""){
     return false
   }
+
   localStorage.setItem("students", JSON.stringify(students));
 
   let separatedWords = [];
