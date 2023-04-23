@@ -27,3 +27,15 @@ btn.addEventListener('click', ()=>{
   list.innerHTML = students.map(student => `<li> ${student}</li>`).join('');
   }
 });
+const deleteBtn = document.querySelector('#deleteBtn');
+
+deleteBtn.addEventListener('click', () => {
+  // Set students array to an empty array
+  students = [];
+
+  // Update local storage with the empty array
+  localStorage.setItem('students', JSON.stringify(students));
+
+  // Clear the list element
+  list.innerHTML = '';
+});
